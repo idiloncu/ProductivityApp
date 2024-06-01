@@ -20,16 +20,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="85dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="388dp"
-        android:text="30:00"
+        android:layout_width="315dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="392dp"
+        android:text="Click the Button for Study!"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/chip"
+        android:id="@+id/startButton"
         android:layout_width="157dp"
         android:layout_height="61dp"
         android:layout_marginTop="28dp"
