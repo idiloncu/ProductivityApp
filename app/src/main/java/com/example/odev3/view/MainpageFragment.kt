@@ -16,25 +16,15 @@ class MainpageFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding=FragmentMainpageBinding.inflate(layoutInflater,container,false)
         binding.mainpageButton.setOnClickListener{
             Navigation.findNavController(it).navigate(R.id.mainFragment)
         }
         binding.usericon.setOnClickListener{
-            val intent=Intent(requireContext(),UserActiviity::class.java)
+            val intent=Intent(requireContext(), UserActiviity::class.java)
             startActivity(intent)
-
-
-
         }
-
-
-
         return binding.root
     }
-
-
-
-    }
+}

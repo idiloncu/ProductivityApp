@@ -1,4 +1,4 @@
-package com.example.odev3.view
+package com.example.odev3.viewmodel
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.odev3.R
 
-class UploadFragment : Fragment() {
+class FeedFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -17,7 +17,7 @@ class UploadFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_upload, container, false)
+        return inflater.inflate(R.layout.fragment_feed, container, false)
     }
 
-    }
+}

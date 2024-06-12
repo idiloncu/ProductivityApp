@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.odev3.R
 import com.example.odev3.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
@@ -62,8 +61,6 @@ class MainFragment : Fragment() {
         val timeFormatted = String.format("%02d:%02d", minutes, seconds)
         binding.kronometer.text = timeFormatted
     }
-
-
     }
 
 
