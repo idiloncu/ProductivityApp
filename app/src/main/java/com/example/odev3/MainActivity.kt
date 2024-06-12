@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
+
         fun firstFragment(view:View){
             val fragmentManager= supportFragmentManager
             val fragmentTransaction=fragmentManager.beginTransaction()

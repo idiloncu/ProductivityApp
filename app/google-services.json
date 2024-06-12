@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "331006375137",
+    "project_id": "odev3-30368",
+    "storage_bucket": "odev3-30368.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331006375137:android:e3e1b5e99f84b49e3673a0",
+        "android_client_info": {
+          "package_name": "com.example.odev3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgTyzRwCeyiaY9JJIMBWy_2LA0idpB168"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
