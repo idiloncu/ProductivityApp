@@ -1,5 +1,6 @@
 package com.example.odev3.view
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,11 +10,11 @@ import androidx.navigation.Navigation
 import com.example.odev3.R
 import com.example.odev3.databinding.FragmentMainpageBinding
 
+
 class MainpageFragment : Fragment() {
     private lateinit var binding: FragmentMainpageBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -21,9 +22,19 @@ class MainpageFragment : Fragment() {
         binding.mainpageButton.setOnClickListener{
             Navigation.findNavController(it).navigate(R.id.mainFragment)
         }
+        binding.usericon.setOnClickListener{
+            val intent=Intent(requireContext(),UserActiviity::class.java)
+            startActivity(intent)
+
+
+
+        }
+
 
 
         return binding.root
     }
+
+
 
     }

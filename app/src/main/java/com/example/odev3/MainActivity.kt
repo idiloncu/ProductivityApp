@@ -17,16 +17,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-
         fun firstFragment(view:View){
             val fragmentManager= supportFragmentManager
             val fragmentTransaction=fragmentManager.beginTransaction()
             val firstFragment = MainFragment()
             fragmentTransaction.replace(R.id.fragmentContainerView,firstFragment).commit()
-
         }
-
     }
     fun startTimer() {
             var countDownTimer = object : CountDownTimer(timeLeftInMillis, 1000) {

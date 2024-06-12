@@ -16,4 +16,13 @@
             android:id="@+id/action_mainpageFragment3_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/userFragment2"
+        android:name="com.example.odev3.view.UserFragment"
+        android:label="activity_user_activiity"
+        tools:layout="@layout/activity_user_activiity" >
+        <action
+            android:id="@+id/action_userFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>
